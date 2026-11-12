@@ -1,0 +1,22 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+| | |
+|---|---|
+| SFT train / validation pairs | 20000 / 500 |
+| Preference train / validation pairs | 20000 / 1000 |
+| Evaluation posts | 300 |
+| Mean / max prompt length, SFT train (tokens) | 317.4 / 448 |
+| Mean / max summary length, SFT train (tokens) | 33.8 / 48 |
+
+
+Loading weights:   0%|          | 0/272 [00:00<?, ?it/s]
+Loading weights:  67%|██████▋   | 183/272 [00:00<00:00, 1779.32it/s]
+Loading weights: 100%|██████████| 272/272 [00:00<00:00, 2174.90it/s]
+token_logprobs shape: (4, 480)  input shape: (4, 481)
+MASKED : ' Me and my sister were going to the park, put my sister in her carseat, left her there for thirty minutes, mom saved her from my ignorance, got grounded for a month.<|endoftext|>'
+SUMMARY: ' Me and my sister were going to the park, put my sister in her carseat, left her there for thirty minutes, mom saved her from my ignorance, got grounded for a month.<|endoftext|>'
+MASKED : " I started dating my friends ex after he told me he was ok with it, but then he decided he wasn't and we're no longer friends. Am I in the wrong here and what can I do to make it right?<|endoftext|>"
+SUMMARY: " I started dating my friends ex after he told me he was ok with it, but then he decided he wasn't and we're no longer friends. Am I in the wrong here and what can I do to make it right?<|endoftext|>"
+MASKED : " GF has been liking a bunch of images of a shirtless/almost naked guy she knows on instagram, I think it's disrespectful and want to know if I'm overreacting/how to talk to her.<|endoftext|>"
+SUMMARY: " GF has been liking a bunch of images of a shirtless/almost naked guy she knows on instagram, I think it's disrespectful and want to know if I'm overreacting/how to talk to her.<|endoftext|>"
+MASKED : ' I come from a family who is well-off and my co-workers found out so now they make constantly pick on me.<|endoftext|>'
+SUMMARY: ' I come from a family who is well-off and my co-workers found out so now they make constantly pick on me.<|endoftext|>'

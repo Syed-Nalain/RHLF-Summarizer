@@ -1,0 +1,41 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/272 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 272/272 [00:00<00:00, 3293.72it/s]
+## Before SFT
+
+1. I'm not going to tell him I'm sorry, I'm not going to tell him I'm sorry, I'm not going to tell him I'm sorry, I'm not going to tell him I'm sorry, I'm not going
+2. I'm not sure if I should ask her to be my girlfriend or not.
+
+I'm not sure if I should ask her to be my girlfriend.
+
+I'm not sure if I should ask her to be my girlfriend.
+3. I dont know if she is going to be able to love me anymore.
+
+I am not sure if she is going to be able to love me anymore.
+
+I am not sure if she is going to be able to love
+4. I'm not sure what to do. I'm not sure if I should keep my savings account or credit card. I'm not sure if I should keep my savings account or credit card. I'm not sure if I should keep my savings
+5. I am not sure if I should hold out or not. I am not sure if I should be able to talk to her again.
+
+I am not sure if I should be able to talk to her again. I am not sure
+
+{'step': 250, 'train_loss': 2.8054521083831787, 'val_loss': 2.416716242541511}
+{'step': 500, 'train_loss': 2.57403564453125, 'val_loss': 2.3967889101106272}
+{'step': 750, 'train_loss': 2.3282628059387207, 'val_loss': 2.3769866744841717}
+{'step': 1000, 'train_loss': 2.4699199199676514, 'val_loss': 2.36303966844808}
+{'step': 1250, 'train_loss': 2.408573865890503, 'val_loss': 2.3539639807396004}
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]
+Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.21it/s]
+Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.21it/s]
+## After SFT
+
+1. boyfriend said hurtful things to me, I want to hurt him but I'm afraid of hurting my feelings and I don't know what to do.
+2. I've been told that a girl has the same feeling I have, should I just ask her to be my girlfriend?
+3. Ex broke up with me, she said she cant love and she is "unable to bond"..I cant believe it..
+4. I'm banking with BoA and want to close my checking account with them and move to a credit union or Charles Schwab.
+5. GF broke up with me, we have a holiday booked in September, should I hold out?
+
+| SFT | 2.4086 | val. loss: 2.3540 | 20.8 min |
+

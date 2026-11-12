@@ -1,0 +1,9 @@
+checkpoints/
+__pycache__/
+*.pyc
+
+REPORT.md
+REPORT.docx
+LINKEDIN_POST.md
+.ipynb_checkpoints/
+.claude/

@@ -1,0 +1,17 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/272 [00:00<?, ?it/s]
+Loading weights:  55%|█████▌    | 150/272 [00:00<00:00, 1471.97it/s]
+Loading weights: 100%|██████████| 272/272 [00:00<00:00, 1644.23it/s]
+{'step': 250, 'train_loss': 0.6101440787315369, 'val_acc': 0.628}
+{'step': 500, 'train_loss': 0.6718577742576599, 'val_acc': 0.619}
+{'step': 750, 'train_loss': 0.8918147683143616, 'val_acc': 0.623}
+{'step': 1000, 'train_loss': 0.5874735713005066, 'val_acc': 0.632}
+{'step': 1250, 'train_loss': 0.5711076259613037, 'val_acc': 0.623}
+{'step': 1500, 'train_loss': 0.6032695174217224, 'val_acc': 0.634}
+{'step': 1750, 'train_loss': 0.9425597190856934, 'val_acc': 0.632}
+{'step': 2000, 'train_loss': 0.6282606720924377, 'val_acc': 0.625}
+{'step': 2250, 'train_loss': 0.5611632466316223, 'val_acc': 0.634}
+{'step': 2500, 'train_loss': 0.6269471645355225, 'val_acc': 0.643}
+| Reward model | 0.6269 | pairwise acc.: 0.6430 | 38.8 min |
+
