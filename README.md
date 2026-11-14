@@ -4,8 +4,6 @@ A practice reproduction of *Learning to Summarize from Human Feedback* (Stiennon
 135M-parameter model (`HuggingFaceTB/SmolLM2-135M`). The four stages are written directly in PyTorch,
 without TRL, PEFT or HF Trainer: **SFT → reward model → PPO → DPO**.
 
-> Built as a learning project with help from Claude (Anthropic), which wrote and debugged much of the
-> code and ran the training on Modal. This is a personal practice project, not a course submission.
 
 ## Results (300 held-out Reddit posts)
 
@@ -80,6 +78,4 @@ python -m modal volume get rlhf-vol full/results/ ./results_full/
 - PPO keeps 3 models in GPU memory (policy + value head, reference, reward model). DPO needs only 2 and has no sampling loop, so it is simpler.
 - Gotcha: recent `transformers` loads SmolLM2 in bfloat16. Full fine-tuning needs `dtype=torch.float32`, or the reward head crashes and small DPO updates vanish.
 
-## Checkpoints
 
-Stored on the Modal volume `rlhf-vol` (`full/checkpoints/{sft,reward,ppo,dpo}`); not committed to Git.
